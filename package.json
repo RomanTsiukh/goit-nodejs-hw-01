@@ -4,13 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index js",
-    "dev": "npx nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanTsiukh/goit-nodejs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Roman Tsiukh",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/RomanTsiukh/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/RomanTsiukh/goit-nodejs-hw-01#readme",
+  "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^3.3.4"
   }
 }
